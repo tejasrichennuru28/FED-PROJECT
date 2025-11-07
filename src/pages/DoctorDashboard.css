@@ -1,0 +1,76 @@
+.doctor-dashboard {
+  background: #f8fafc;
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  padding: 40px;
+  color: #333;
+}
+
+.doctor-dashboard h1 {
+  text-align: center;
+  color: #004aad;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.doctor-dashboard h3 {
+  text-align: center;
+  color: #666;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+/* Table Styling */
+.doctor-dashboard table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+  max-width: 900px;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.doctor-dashboard th,
+.doctor-dashboard td {
+  padding: 12px 16px;
+  text-align: left;
+}
+
+.doctor-dashboard thead {
+  background: #007bff;
+  color: white;
+}
+
+.doctor-dashboard tbody tr:nth-child(even) {
+  background: #f1f5f9;
+}
+
+.doctor-dashboard tbody tr:hover {
+  background: #e8f1ff;
+  transition: 0.3s;
+}
+
+/* No appointments message */
+.no-appointments {
+  text-align: center;
+  color: #999;
+  font-size: 18px;
+  margin-top: 50px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .doctor-dashboard {
+    padding: 20px;
+  }
+
+  .doctor-dashboard table {
+    font-size: 14px;
+  }
+
+  .doctor-dashboard h1 {
+    font-size: 28px;
+  }
+}

@@ -1,16 +1,52 @@
-# React + Vite
+# 🏥 ApolloCare – Healthcare Management System (FED Project)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a **Front-End Development (FED)** project built using **React + Vite**.  
+It provides a modern and responsive healthcare portal with role-based dashboards for **Patients**, **Doctors**, and **Admins**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live Demo
 
-## React Compiler
+👉 **Hosted Link:** [https://fed-project-tejasri.netlify.app/](https://fed-project-tejasri.netlify.app/)  
+*(If not deployed yet, you can deploy easily using Netlify or GitHub Pages — steps below.)*
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+👉 **GitHub Repository:** [https://github.com/tejasrichennuru28/FED-PROJECT](https://github.com/tejasrichennuru28/FED-PROJECT)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Features
+
+### 👩‍⚕️ Doctor Dashboard
+- View and manage patient appointments  
+- Confirm or cancel bookings  
+- View hospital and consultation details  
+- Secure logout and auto-navigation
+
+### 🧑‍🤝‍🧑 Patient Dashboard
+- Browse doctors and book consultations  
+- Select **Video** or **In-Person** visits  
+- View upcoming appointments  
+- Modern responsive interface
+
+### 👨‍💼 Admin Dashboard
+- Manage registered users (Patients, Doctors, Admins)  
+- Track appointments and payments  
+- Clean data table interface  
+- Role-based access control
+
+---
+
+## ⚙️ Tech Stack
+
+| Technology | Description |
+|-------------|-------------|
+| **React + Vite** | Fast frontend build tool for modern React apps |
+| **JavaScript (ES6+)** | Core programming language |
+| **CSS3** | Custom responsive design |
+| **React Router DOM** | Page navigation and role-based routing |
+| **LocalStorage** | Persistent user data storage |
+| **Netlify / GitHub Pages** | Hosting and deployment platform |
+
+---
+
+## 📂 Folder Structure

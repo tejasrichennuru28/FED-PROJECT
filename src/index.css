@@ -1,0 +1,25 @@
+/* index.css */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #cce0ff, #e6f0ff);
+  min-height: 100vh;
+}
+
+h2, h3 {
+  color: #007bff;
+}
+
+button {
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+form input {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
